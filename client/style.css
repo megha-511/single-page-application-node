@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+}
+
+.container {
+    padding: 1rem;
+}
+/* Header Section Start */
+
+.header-section {
+    background: linear-gradient(to right, rgb(5, 76, 117), rgba(75, 2, 85, 0.534));
+}
+.heading {
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+.heading  nav  ul  {
+    list-style: none;
+}
+
+.heading nav ul li a {
+    padding: 0.5rem 1.2rem;
+    background-color: beige;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: crimson;
+    transition: all .3s;
+}
+
+
+.heading nav ul li a:hover {
+    background-color: crimson;
+    color: beige;
+    font-size: 1.5rem;
+}
+
+/* Header Section End */
+
+/* Main Section Start */
+.main-section {
+    margin: 0 auto;
+    width: 100%;
+    background: linear-gradient(to left, rgb(5, 76, 117), rgba(75, 2, 85, 0.534));   
+}
+
+.data-components {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.data-components .chart {
+    display: flex;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 1px 2px saddlebrown;
+    box-sizing: border-box;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+table tbody, table thead
+{
+    display: block;
+}
+
+table tbody 
+{
+   overflow: auto;
+   height: 250px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: baseline;
+}
+li:nth-child(even) {
+    vertical-align: baseline;
+}
+
+table {
+    width: 350px; /* can be dynamic */
+}
+
+th
+{
+    width: 100px;
+    text-align: justify;
+    border: 1px solid #000;
+}
+
+td {
+    width: 100px;
+    text-align: justify;
+    border: 1px solid #000;
+}
+.data-components .chart:nth-child(odd) {
+    margin-bottom: 2rem;
+    background-color: sienna;
+}
+.data-components .chart:nth-child(even) {
+    background-color: tomato;
+    position: relative;
+}
+
+
+.s-head {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: none;
+}
+
+.info {
+    padding: 0rem 1.5rem;
+}
+
+.profile-content {
+    width: 100%;
+    height: 50%;
+}
+
+#wave{
+    /* top:100; */
+    bottom: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+/* Main Section End */

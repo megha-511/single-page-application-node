@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Ria Everett",
+		"phone": "(708) 328-8946",
+		"email": "egestas.nunc@outlook.edu",
+		"address": "Ap #486-4886 Nunc St.",
+		"country": "Spain",
+		"region": "Dumfriesshire"
+	},
+	{
+		"name": "Merrill Boyle",
+		"phone": "1-858-897-0702",
+		"email": "nonummy.fusce.fermentum@icloud.org",
+		"address": "Ap #396-3961 Ridiculus St.",
+		"country": "Colombia",
+		"region": "Saskatchewan"
+	},
+	{
+		"name": "Carissa Meadows",
+		"phone": "1-578-614-5754",
+		"email": "elementum.sem@protonmail.couk",
+		"address": "P.O. Box 272, 565 Sed Avenue",
+		"country": "Poland",
+		"region": "Fife"
+	},
+	{
+		"name": "David Gibson",
+		"phone": "(261) 724-1832",
+		"email": "eu.nibh.vulputate@icloud.com",
+		"address": "1318 Donec Av.",
+		"country": "Belgium",
+		"region": "Hidalgo"
+	},
+	{
+		"name": "Calvin Higgins",
+		"phone": "1-382-335-4889",
+		"email": "ligula@outlook.ca",
+		"address": "Ap #959-5551 Morbi St.",
+		"country": "Germany",
+		"region": "Australian Capital Territory"
+	}
+]
